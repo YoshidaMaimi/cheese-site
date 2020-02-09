@@ -1,0 +1,228 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+
+html{
+    font-size: 62.5%; /* 16px *62.5%=10px */
+}
+body{
+    color: #333333;
+    font-size: 1.6rem;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* header ok */
+.header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul.header__nav{
+ display: flex;
+}
+.header__nav li{
+ margin-left: 40px;
+}
+
+/* about ok*/
+section#about {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+section#about p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+section#about li {
+    margin-bottom: 20px;
+}
+
+section#about h2 {
+    color: red;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/*  aa  ok*/
+ul.aa li {
+    width: 25%;
+}
+ul.aa {
+    display: flex;
+}
+
+/*  bb=main visual ok*/
+section.bb {
+    background:url("../img/mainbg.png");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+section.bb ul li {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+section.bb ul {
+    padding-top: 200px;
+}
+
+/* course1 ok?*/
+section#course{
+    margin: 50px 0;
+}
+section#course h3{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+section#course p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-break: 1.8;
+    line-height: normal;
+}
+
+/* course2 */
+
+
+/* news  ok*/
+
+
+h2.newsbox {
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow;
+    margin: 20px;
+    text-align: center;
+}
+p.newsbox {
+    display: block;
+    text-align: center;
+    margin: 25px;
+}
+
+section.news {
+    display: block;
+    text-align: center;
+    margin: 50px;
+}
+
+ul.newslist{
+    display:flex;
+    justify-content: space-between;
+    width:960px;
+    margin: 0 auto;
+}
+
+.newslist__item-day {
+    margin: 20px;
+}
+.newslist__item-text {
+    margin: 20px;
+    line-height: normal;
+}
+a.bottan {
+    width: 300px;
+    font-size: 20px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    BACKGROUND-COLOR: YELLOW;
+    COLOR: WHITE;
+    PADDING: 21PX;
+    FONT-WEIGHT: bold;
+}
+/* more */
+
+/* access ok?　地図が小さい */
+h2.accessbox{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: 20px;
+    text-align: center;
+}
+
+h3.accessbox{
+    font-size: 18px;
+    color: black;
+    margin: 20px;
+    text-align: center;
+}
+.adress {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: normal;
+}
+.m-map {
+    margin: 20px;
+    text-align: center;
+    width: ;
+}
+section#access {
+    text-align: center;
+}
+iframe {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* contact */
+h2.contact {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+p.contact {
+    font-size: 18px;
+    color: black;
+    margin: 20px;
+    text-align: center;
+}
+section {
+    font-size: 18px;
+    color: black;
+    margin: 20px;
+    text-align: center;
+
+/* 加工中 */
+form {
+    font-size: 18px;
+    color: black;
+    margin: 30px;
+    text-align: center;
+}
+
+/* input[type="submit"] { */
+/* .送信 input{
+    width: 200px;
+    font-size: 20px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    BACKGROUND-COLOR: YELLOW;
+    COLOR: WHITE;
+    PADDING: 21PX;
+    FONT-WEIGHT: bold;
+}  適用されず*/
+
+/* 適用されず　dl {
+    width: 560px;
+    margin: auto;
+} */
